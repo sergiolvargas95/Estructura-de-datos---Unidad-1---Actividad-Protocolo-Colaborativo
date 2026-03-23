@@ -1,6 +1,6 @@
 function main(): void {
 
-    // Declare array
+    // Declare matrix
     const numbers: number[][] = [];
     for (let i = 0; i < 3; i++) {
         numbers.push([0, 0, 0]);
