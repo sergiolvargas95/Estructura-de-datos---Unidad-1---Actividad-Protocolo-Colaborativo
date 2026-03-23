@@ -1,6 +1,11 @@
 function main(): void {
 
-    const numbers: number[][] = Array.from({ length: 3 }, () => Array(3).fill(0));
+    // Declare array
+    const numbers: number[][] = [];
+    for (let i = 0; i < 3; i++) {
+        numbers.push([0, 0, 0]);
+    }
+
 
     initializeMatrix(numbers);
     printMatrix(numbers);
